@@ -5,13 +5,13 @@ import { useFonts } from 'expo-font';
 
 
 export default function TelaInicial() {
-  const [fontsLoaded] = useFonts({
-  Abril: require('./assets/fontes/AbrilFatface-Regular.ttf'),
-});
+    const [fontsLoaded] = useFonts({
+        Abril: require('./assets/fontes/AbrilFatface-Regular.ttf'),
+    });
 
-if (!fontsLoaded) {
-  return null; // evita piscar sem a fonte carregada
-}
+    if (!fontsLoaded) {
+        return null; // evita piscar sem a fonte carregada
+    }
 
   return (
     <View style={styles.container}>
@@ -19,15 +19,15 @@ if (!fontsLoaded) {
           source={require('./assets/signify.jpeg')}
           style={styles.icon}
         />
-<View style={{ height: 90, justifyContent: 'center', alignItems: 'center' }}>
-  <Text style={styles.titleStroke}>Signify</Text>
-  <Text style={styles.title}>Signify</Text>
-</View>
+    <View style={{ height: 90, justifyContent: 'center', alignItems: 'center' }}>
+    <Text style={styles.titleStroke}>Signify</Text>
+    <Text style={styles.title}>Signify</Text>
+    </View>
 
-<View style={{ marginBottom: 40 }}>
-  <Text style={styles.subtitleStroke}>Seu tradutor de Libras!</Text>
-  <Text style={styles.subtitle}>Seu tradutor de Libras!</Text>
-</View>
+    <View style={{ marginBottom: 40 }}>
+    <Text style={styles.subtitleStroke}>Seu tradutor de Libras!</Text>
+    <Text style={styles.subtitle}>Seu tradutor de Libras!</Text>
+    </View>
 
 
 
