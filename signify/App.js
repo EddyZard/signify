@@ -7,7 +7,7 @@ import TelaInicial from './TelaInicial';
 export default function App() {
   return (
     <View style={styles.container}>
-      <TelaInicial />
+      <Biblioteca />
       <StatusBar style="auto" />
     </View>
   );
