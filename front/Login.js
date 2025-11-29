@@ -3,7 +3,7 @@ import { Alert, View, Text, StyleSheet, Image, TextInput, TouchableOpacity } fro
 import { StatusBar } from 'expo-status-bar';
 import { Ionicons } from '@expo/vector-icons';
 
-export default class App extends Component {
+export default class Login extends Component {
 
   constructor(props) {
     super(props);
