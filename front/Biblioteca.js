@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, FlatList } from 'react-native';
+import { View, Text, TouchableOpacity, FlatList, Image } from 'react-native';
 
 export default function Biblioteca() {
   const sinais = [
@@ -24,11 +24,14 @@ export default function Biblioteca() {
 
   return(
     <View style={{ flex: 1, flexDirection: 'column', justifyContent: 'space-between', alignItems: 'space-between', backgroundColor: 'white'}}>
-      <View style={{ width: '100%', flexDirection: 'row', justifyContent: 'space-around', padding: '15px', backgroundColor: 'pink'}}>
+      <View style={{ width: '100%', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around', padding: '15px', backgroundColor: 'white'}}>
         <TouchableOpacity>
-          <Text>(Logo)</Text>
+          <Image 
+                    source={require('./assets/logo.jpeg')}
+                    style={{width: 50, height: 50, borderRadius: 60}}
+                  />
         </TouchableOpacity>
-        <Text style={{ fontSize: 18, fontWeight: 'bold', fontFamily: 'Abril'}}>Biblioteca de Sinais</Text>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', fontFamily: 'Abril'}}>Biblioteca de Sinais</Text>
         <TouchableOpacity>
           <Text>(Menu)</Text>
         </TouchableOpacity>
