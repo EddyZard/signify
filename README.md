@@ -1,5 +1,6 @@
 # signify
 (Segunda Tentativa de fazer o Signify funcionar)
+(lembrando que tem que rodar um "npm install" no front antes de executar ele!)
 
 Projeto Integrador VI - Signify
 
