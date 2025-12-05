@@ -4,11 +4,11 @@ import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
 
 export default function TelaInicial() {
-
+/*
   const [fontsLoaded] = useFonts({
     Abril: require('./assets/AbrilFatface-Regular.ttf'),
   });
-
+*/
   return (
     <View style={{ flex: 1, backgroundColor: 'white' }}>
 
